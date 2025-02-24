@@ -1,5 +1,9 @@
 # Coding Project Setup / Notes
 
+###Creating dependencies install file
+```bash
+pip freeze > requirements.txt
+```
 
 # Git Workflow Cheat Sheet
 
