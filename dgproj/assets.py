@@ -1,7 +1,5 @@
 import pandas as pd
-
 import dagster as dg
-
 
 @dg.asset
 def processed_data():
@@ -11,7 +9,6 @@ def processed_data():
     ## Save processed data
     df.to_csv("data_files/processed_data.csv", index=False)
     return "Data loaded successfully"
-
 
 ## Tell Dagster about the assets that make up the pipeline by
 ## passing it to the Definitions object

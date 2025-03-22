@@ -1,5 +1,5 @@
 [project]
-name = "dagster_scripts"
+name = "dgproj"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -20,8 +20,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.dagster]
-module_name = "dagster_scripts.definitions"
-code_location_name = "dagster_scripts"
+module_name = "dgproj.definitions"
+code_location_name = "dgproj"
 
 [tool.setuptools.packages.find]
-exclude=["dagster_scripts_tests"]
+exclude=["dgproj_tests"]
