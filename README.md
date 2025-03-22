@@ -4,6 +4,10 @@
 ```bash
 pip freeze > requirements.txt
 ```
+# Dagster web-server start
+```bash
+dagster dev -f dgproj/dgproj/assets.py
+```
 
 # Git Workflow Cheat Sheet
 

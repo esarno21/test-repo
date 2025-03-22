@@ -1,4 +1,4 @@
-# dagster_scripts
+# dgproj
 
 This is a [Dagster](https://dagster.io/) project scaffolded with [`dagster project scaffold`](https://docs.dagster.io/guides/build/projects/creating-a-new-project).
 
@@ -18,7 +18,7 @@ dagster dev
 
 Open http://localhost:3000 with your browser to see the project.
 
-You can start writing assets in `dagster_scripts/assets.py`. The assets are automatically loaded into the Dagster code location as you define them.
+You can start writing assets in `dgproj/assets.py`. The assets are automatically loaded into the Dagster code location as you define them.
 
 ## Development
 
@@ -28,10 +28,10 @@ You can specify new Python dependencies in `setup.py`.
 
 ### Unit testing
 
-Tests are in the `dagster_scripts_tests` directory and you can run tests using `pytest`:
+Tests are in the `dgproj_tests` directory and you can run tests using `pytest`:
 
 ```bash
-pytest dagster_scripts_tests
+pytest dgproj_tests
 ```
 
 ### Schedules and sensors

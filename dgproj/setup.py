@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="dagster_scripts",
-    packages=find_packages(exclude=["dagster_scripts_tests"]),
+    name="dgproj",
+    packages=find_packages(exclude=["dgproj_tests"]),
     install_requires=[
         "dagster",
         "dagster-cloud"
