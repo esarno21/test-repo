@@ -1,0 +1,51 @@
+# Dagster instance files (SQLite DB, run history, logs, etc.)
+dagster_instance/
+dagster.db
+dagster_run_logs/
+event_logs/
+storage/
+logs/
+
+# Dagster metadata & compiled Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Coverage & test artifacts
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# IDE/editor configs
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# System & OS
+Thumbs.db
+*.log
+
+# Optional: dagster webserver config
+celerybeat-schedule
+celerybeat.pid
+
+# Optional: if using dbt with Dagster
+dbt_packages/
+target/
+manifest.json
+run_results.json
+catalog.json

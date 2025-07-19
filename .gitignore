@@ -1,3 +1,18 @@
-# ignore venv directory
-.venv/
+# Data files
 data_files/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter or notebook artifacts (if used)
+.ipynb_checkpoints/
+*.ipynb
+
+# System or IDE files
+.DS_Store
+*.pyc
+__pycache__/
+.vscode/
+.idea/

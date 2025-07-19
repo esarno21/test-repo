@@ -1,0 +1,11 @@
+dbtproj:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: admin
+      port: 5433
+      dbname: test_db
+      schema: public

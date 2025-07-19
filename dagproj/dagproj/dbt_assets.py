@@ -1,0 +1,11 @@
+from dagster import Definitions
+from dagster_dbt import load_assets_from_dbt_project
+
+dbt_assets = load_assets_from_dbt_project(
+    project_dir="../dbtproj",
+    profiles_dir="../dbtproj",
+)
+
+defs = Definitions(
+    assets=[dbt_assets]
+)
