@@ -1,9 +1,9 @@
 [project]
-name = "dgproj"
+name = "dagproj"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9,<3.13"
+requires-python = ">=3.9,<=3.13.3"
 dependencies = [
     "dagster",
     "dagster-cloud",
@@ -20,8 +20,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.dagster]
-module_name = "dgproj.definitions"
-code_location_name = "dgproj"
+module_name = "dagproj.definitions"
+code_location_name = "dagproj"
 
 [tool.setuptools.packages.find]
-exclude=["dgproj_tests"]
+exclude=["dagproj_tests"]

@@ -1,0 +1,122 @@
+[0m21:31:43.377249 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDB4DF42F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDB7755CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDB7755A90>]}
+
+
+============================== 21:31:43.380275 | 4fb2afb3-af03-4171-befc-648c69e6910d ==============================
+[0m21:31:43.380275 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:31:43.381779 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\esarn\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init dbtproj', 'send_anonymous_usage_stats': 'True'}
+[0m21:31:43.399426 [debug] [MainThread]: Starter project path: C:\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m21:31:43.410010 [info ] [MainThread]: 
+Your new dbt project "dbtproj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:31:43.411014 [info ] [MainThread]: Setting up your profile.
+[0m21:32:30.548253 [info ] [MainThread]: Profile dbtproj written to C:\Users\esarn\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:32:30.549274 [debug] [MainThread]: Command `dbt init` succeeded at 21:32:30.549274 after 47.27 seconds
+[0m21:32:30.549274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDB7E94920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDB7A3D040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDB73B4140>]}
+[0m21:32:30.549274 [debug] [MainThread]: Flushing usage events
+[0m21:32:30.645351 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:35:52.702597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D969B1D370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D969CD48C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D969CD4A10>]}
+
+
+============================== 21:35:52.705671 | d6c32010-74f9-4132-aa5d-7bd297b4d8ed ==============================
+[0m21:35:52.705671 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:35:52.706675 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\esarn\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:35:52.723520 [info ] [MainThread]: dbt version: 1.10.4
+[0m21:35:52.723520 [info ] [MainThread]: python version: 3.12.9
+[0m21:35:52.723520 [info ] [MainThread]: python path: C:\Python\Python312\python.exe
+[0m21:35:52.724544 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m21:35:52.724544 [info ] [MainThread]: Using profiles dir at C:\Users\esarn\.dbt
+[0m21:35:52.724544 [info ] [MainThread]: Using profiles.yml file at C:\Users\esarn\.dbt\profiles.yml
+[0m21:35:52.725549 [info ] [MainThread]: Using dbt_project.yml file at D:\coding\project_db01\dbt_project.yml
+[0m21:35:52.725549 [info ] [MainThread]: Configuration:
+[0m21:35:52.725549 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m21:35:52.725549 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:35:52.726553 [info ] [MainThread]: Required dependencies:
+[0m21:35:52.726553 [debug] [MainThread]: Executing "git --help"
+[0m21:35:52.743687 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:35:52.744690 [debug] [MainThread]: STDERR: "b''"
+[0m21:35:52.744690 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:35:52.744690 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m21:35:52.745696 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:35:52.745696 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\esarn\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:35:52.746699 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\coding\project_db01\dbt_project.yml> not found
+
+[0m21:35:52.746699 [debug] [MainThread]: Command `dbt debug` failed at 21:35:52.746699 after 0.15 seconds
+[0m21:35:52.747703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D968A727B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D969D49E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D969A3A000>]}
+[0m21:35:52.747703 [debug] [MainThread]: Flushing usage events
+[0m21:35:52.823924 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:37:58.127851 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027C3B681880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027C3BB5E4B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027C3BCBB170>]}
+
+
+============================== 21:37:58.130866 | cf6efb91-80a4-408c-b4c7-45984a4dff6b ==============================
+[0m21:37:58.130866 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:37:58.131866 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\esarn\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init dbtproj', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:37:58.150705 [debug] [MainThread]: Starter project path: D:\coding\project_db01\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:37:58.161955 [info ] [MainThread]: 
+Your new dbt project "dbtproj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:37:58.162973 [info ] [MainThread]: Setting up your profile.
+[0m21:38:03.487807 [error] [MainThread]: Encountered an error:
+
+[0m21:38:03.502459 [error] [MainThread]: Traceback (most recent call last):
+  File "D:\coding\project_db01\.venv\Lib\site-packages\dbt\cli\requires.py", line 161, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\project_db01\.venv\Lib\site-packages\dbt\cli\requires.py", line 111, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\project_db01\.venv\Lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "D:\coding\project_db01\.venv\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "D:\coding\project_db01\.venv\Lib\site-packages\dbt\task\init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\project_db01\.venv\Lib\site-packages\dbt\task\init.py", line 242, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\project_db01\.venv\Lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\project_db01\.venv\Lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m21:38:03.503465 [debug] [MainThread]: Command `dbt init` failed at 21:38:03.503465 after 5.47 seconds
+[0m21:38:03.504469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027C3B482960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027C397B1E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027C3C025A30>]}
+[0m21:38:03.504469 [debug] [MainThread]: Flushing usage events
+[0m21:38:03.592168 [debug] [MainThread]: An error was encountered while trying to flush usage events

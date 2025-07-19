@@ -6,7 +6,7 @@ pip freeze > requirements.txt
 ```
 # Dagster web-server start
 ```bash
-dagster dev -f dgproj/dgproj/assets.py
+dagster dev -f dgproj/ingestion/assets.py
 ```
 
 # Git Workflow Cheat Sheet
